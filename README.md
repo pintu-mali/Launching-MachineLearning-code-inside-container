@@ -3,6 +3,7 @@ Use Dockerfile to build the image with the python code
 Create the container and give the input while launching the container so that container gives output and then stops.
 
 Follow the below steps
+
 step 1 : Create a separate folder
       
       #mkdir /task/
