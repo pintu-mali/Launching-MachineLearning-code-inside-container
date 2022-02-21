@@ -7,6 +7,7 @@ Follow the below steps
 step 1 : Create a separate folder
       
       #mkdir /task/
+      #cd /task/
       
 step 2 : Create a Machine learning code in it
       
