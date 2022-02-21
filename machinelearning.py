@@ -1,5 +1,4 @@
 import os
-os.system("tput setaf 39")
 print("""
 #########################################
 #                                       #
@@ -19,11 +18,9 @@ while True:
     if ch == 1:
       import os
       import pandas as pd
-      os.system("tput setaf 21")
       print("""
 the output column name should be 'y'
       """)
-      os.system("tput setaf 7")
       location = input("Enter the location of dataset: ")
       data = pd.read_csv(location)
       x = data.drop('y',axis=1)
@@ -77,47 +74,31 @@ Enter your choice: """))
           list_x = list(x_input.split(","))
           int_x = [float(x) for x in list_x]
           y_pred = model.predict(int_x)
-          os.system("tput setaf 34")
           print(y_pred)
-          os.system("tput setaf 7")
 
         elif ch == 2:
-          os.system("tput setaf 34")
           print(data.columns)
-          os.system("tput setaf 7")
-
+        
         elif ch == 3:
-          os.system("tput setaf 34")
           print(data.head)
-          os.system("tput setaf 7")
 
         elif ch == 4:
-          os.system("tput setaf 34")
           print(data.info())
-          os.system("tput setaf 7")
 
         elif ch == 5:
-          os.system("tput setaf 34")
           print(model.get_config())
-          os.system("tput setaf 7")
 
         elif ch == 6:
-          os.system("tput setaf 34")
           print(model.summary())
-          os.system("tput setaf 7")
 
         elif ch == 7:
-          os.system("tput setaf 34")
           weight = model.get_weights()
           print(weight)
-          os.system("tput setaf 7")
 
         elif ch == 8:
           break
         input("Press Enter to continue..........")
         os.system("clear")
     elif ch == 2:
-        os.system("tput setaf 85")
         print("bye bye!!!!!!!!!!!")
-        os.system("tput setaf 7")
         break
