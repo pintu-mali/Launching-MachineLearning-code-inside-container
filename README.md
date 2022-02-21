@@ -4,7 +4,8 @@ Create the container and give the input while launching the container so that co
 
 Follow the below steps
 step 1 : Create a separate folder
-      mkdir /task/
+      
+      #mkdir /task/
       
 step 2 : Create a Machine learning code in it
       vim machinelearning.py
