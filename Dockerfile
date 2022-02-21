@@ -11,7 +11,7 @@ RUN pip3 install keras
 RUN pip3 install tensorflow
 RUN pip3 install scikit-learn
 RUN pip3 install numpy
-#RUN yum install ncurses -y
+RUN yum install ncurses -y
 COPY machinelearning.py /machinelearning.py
 COPY weight-height.csv /dataset.csv
 CMD python3 /machinelearning.py
