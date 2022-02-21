@@ -15,15 +15,17 @@ step 2 : Create a Machine learning code in it
 step 3 : Download the dataset provided
 
 step 4 : Create a Dockerfile
-      vim Dockerfile
+      
+      #vim Dockerfile
       Copy paste the code provided
       
 step 5 : Build the image by the following command
-      docker Build /task/ -t pythoncode
       
+      #docker Build /task/ -t pythoncode
       here /task/ is the folder name and pythoncode is the image name we are creating
 
 step 6 : Create a container from the image
+      
       #docker run -it pythoncode
       
 Basic Requirements : Docker-ce and python must be installed
