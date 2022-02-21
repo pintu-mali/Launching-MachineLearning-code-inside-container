@@ -23,7 +23,7 @@ step 4 : Create a Dockerfile
       
 step 5 : Build the image by the following command
       
-      #docker Build /task/ -t pythoncode
+      #docker build /task/ -t pythoncode
       here /task/ is the folder name and pythoncode is the image name we are creating
 
 step 6 : Create a container from the image
