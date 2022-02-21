@@ -8,7 +8,8 @@ step 1 : Create a separate folder
       #mkdir /task/
       
 step 2 : Create a Machine learning code in it
-      vim machinelearning.py
+      
+      #vim machinelearning.py
       Copy paste the code provided
       
 step 3 : Download the dataset provided
